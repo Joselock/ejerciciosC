@@ -4,7 +4,6 @@
 
 #include "incisos.h"
 
-
 int main(void){
 
 
