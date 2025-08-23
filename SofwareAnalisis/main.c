@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
-#include <Logica/incisos.h>
+#include "Logica/incisos.h"
 
 int main(void){
 
