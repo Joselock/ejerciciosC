@@ -3,7 +3,7 @@
 #include <stdbool.h>
 #include <string.h>
 
-#include "incisos.h"
+#include <Logica/incisos.h>
 
 //Inciso b
 

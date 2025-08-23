@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "incisos.h": "c",
+        "stdio.h": "c"
+    }
+}
