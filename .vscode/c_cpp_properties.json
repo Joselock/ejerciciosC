@@ -3,10 +3,9 @@
         {
             "name": "Win32",
             "includePath": [
-                "${workspaceFolder}/**",                // Busca en todo el proyecto
-                "C:/TDM-GCC-64/include/**",            // Cabeceras estándar de TDM-GCC
-                "C:/TDM-GCC-64/x86_64-w64-mingw32/include/**"  // Cabeceras de sistema MinGW
-                
+                "${workspaceFolder}/**",
+                "C:/TDM-GCC-64/include/**",
+                "C:/TDM-GCC-64/x86_64-w64-mingw32/include/**"
             ],
             "defines": [
                 "_DEBUG",
@@ -16,8 +15,8 @@
             "cStandard": "c17",
             "cppStandard": "gnu++14",
             "intelliSenseMode": "windows-gcc-x64",
-            "compilerPath": "C:/TDM-GCC-64/bin/gcc.exe",
-            "windowsSdkVersion": "10.0.19041.0"  // Opcional: Usa tu versión del SDK
+            "compilerPath": "C:/MinGW/bin/gcc.exe",
+            "windowsSdkVersion": "10.0.19041.0"
         }
     ],
     "version": 4
