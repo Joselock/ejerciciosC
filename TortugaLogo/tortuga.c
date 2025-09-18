@@ -94,7 +94,7 @@ int main(){
 
     // imprimir tablero: '*' para las lineas y ' ' para vacio
     for (i = 0; i < N; i++){
-        for (i = 0; i < N; i++){
+        for (j = 0; j < N; i++){
             putchar(tablero[i][j] ? '*' : ' ');
         }
         putchar('\n');
