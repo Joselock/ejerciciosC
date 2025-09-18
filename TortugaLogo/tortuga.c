@@ -13,7 +13,7 @@ void tortuga(float instrucciones[MAX_INSTR],char tablero[N][N],int cant){
 
     //1) Inicializar tablero en cero
    for (i = 0; i < N; i++){
-        for (j = 0; j < N; i++){
+        for (j = 0; j < N; j++){
             tablero[i][j]=0;
         }
         
@@ -55,7 +55,7 @@ void tortuga(float instrucciones[MAX_INSTR],char tablero[N][N],int cant){
             if(pluma == 2){
                 
                 // pluma abajo: dibujar en cada paso
-                for (i = 0; i < pasos; i++){
+                for (j = 0; j < pasos; j++){
                     f += df;
                     c += dc;
 
@@ -94,7 +94,7 @@ int main(){
 
     // imprimir tablero: '*' para las lineas y ' ' para vacio
     for (i = 0; i < N; i++){
-        for (j = 0; j < N; i++){
+        for (j = 0; j < N; j++){
             putchar(tablero[i][j] ? '*' : ' ');
         }
         putchar('\n');
