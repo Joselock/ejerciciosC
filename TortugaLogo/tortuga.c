@@ -12,12 +12,12 @@ void tortuga(float instrucciones[MAX_INSTR],char tablero[N][N],int cant){
     int ejecutando = 1;  // bandera para parar al recibir 9
 
     //1) Inicializar tablero en cero
-    for (i = 0; i < N; i++){
+   /* for (i = 0; i < N; i++){
         for (i = 0; i < N; i++){
             tablero[i][j]=0;
         }
         
-    }
+    }*/
 
 
     //2) Procesar comandos
@@ -80,8 +80,9 @@ void tortuga(float instrucciones[MAX_INSTR],char tablero[N][N],int cant){
      
 }
 
-// Funcion prueba: dibujar un cuadrado 12 x 12 e imprimirlo
 
+
+// Funcion prueba: dibujar un cuadrado 12 x 12 e imprimirlo
 int main(){
 
     float comandos[MAX_INSTR] = {2, 5.12f, 3, 5.12f, 3, 5.12f, 3, 5.12f, 1 , 9};
