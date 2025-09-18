@@ -13,7 +13,7 @@ void tortuga(float instrucciones[MAX_INSTR],char tablero[N][N],int cant){
 
     //1) Inicializar tablero en cero
    for (i = 0; i < N; i++){
-        for (i = 0; i < N; i++){
+        for (j = 0; j < N; i++){
             tablero[i][j]=0;
         }
         
