@@ -12,12 +12,12 @@ void tortuga(float instrucciones[MAX_INSTR],char tablero[N][N],int cant){
     int ejecutando = 1;  // bandera para parar al recibir 9
 
     //1) Inicializar tablero en cero
-   /* for (i = 0; i < N; i++){
+   for (i = 0; i < N; i++){
         for (i = 0; i < N; i++){
             tablero[i][j]=0;
         }
         
-    }*/
+    }
 
 
     //2) Procesar comandos
